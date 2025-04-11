@@ -1,0 +1,35 @@
+
+final.quiz_average = (final.q1 + final.q2 + final.q3  + final.q4)/4
+
+
+midterm.grade = (midterm.cp * 0.20) + (midterm.att * 0.10) + (midterm.quiz_average * 0.30) + (midterm.exam * 0.40)
+final.grade = (final.cp * 0.20) + (final.att * 0.10) + (final.quiz_average * 0.30) + (final.exam * 0.40)
+
+midterm.grade = (((midterm.cp * 0.20) + (midterm.att * 0.10) + (midterm.quiz_average * 0.30) + (midterm.exam * 0.40)) * .60) + (midterm.laboratory*.40) 
+        final.grade = (((final.cp * 0.20) + (final.att * 0.10) + (final.quiz_average * 0.30) + (final.exam * 0.40)) *.60) + (final.laboratory * 0.40)
+
+
+
+given: mtcp = 88.00, mt_attendance = 100.00, mt_q1 = (13.00/15)*60+40, mt_q2 = (8.00/10)*60+40, mt_q3 = (25.00/25)*60+40, mt_q4 = (37.00/40)*60+40, mt_lec = (40.00/50)*60+40, mt_lab = 70.00. use this formula: 
+
+mt_quiz_average = (mt_q1 + mt_q2 + mt_q3 + mt_q4)/4
+midterm.grade = (((mtcp * 0.20) + (mt_attendance * 0.10) + (mt_quiz_average * 0.30) + (mt_lec * 0.40)) * .60) + (mt_lab*.40) 
+
+mt_q1 =  92
+mt_q2 = 88
+mt_q3 = 100
+mt_q4 = 95 
+
+mt_quiz_average = 375 /4 = 93 <= 93.75  => 27.9 => 27         28.125
+mt_lec = 88 => 35.2 => 35                          35.2
+mt_lab = 28
+
+mtcp = 17.6
+mt_attendance = 10
+
+
+
+
+40% LG + 60% (20% CP + 30% Q + 50% ME)
+
+mtcp   | mt_attendance | mt_q1 | mt_q2 | mt_q3 | mt_q4 | mt_lec | mt_lab
